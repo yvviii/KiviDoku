@@ -93,13 +93,15 @@ nav ul li a.active {
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    width: 200%; /* Adjust width to accommodate all slides */
 }
 
 .carousel-item {
     display: flex;
     justify-content: space-between;
+    width: 50%; /* Each item takes up half the width of the carousel-inner */
+    box-sizing: border-box;
 }
-
 .carousel-item img {
     width: 49%;
 }
