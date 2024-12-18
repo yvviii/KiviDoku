@@ -96,14 +96,17 @@ nav ul li a.active {
     width: 200%; /* Adjust width to accommodate all slides */
 }
 
+/* Adjust the carousel item and image sizes */
 .carousel-item {
     display: flex;
     justify-content: space-between;
-    width: 50%; /* Each item takes up half the width of the carousel-inner */
+    width: 100%; /* Each item takes up the full width of the carousel-inner */
     box-sizing: border-box;
 }
+
 .carousel-item img {
-    width: 49%;
+    width: 49%; /* Each image takes up half of the carousel item width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .carousel-control {

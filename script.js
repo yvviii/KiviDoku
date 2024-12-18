@@ -41,7 +41,7 @@ function showSlide(index) {
     } else {
         currentIndex = index;
     }
-    const offset = -currentIndex * 50; // Adjust offset to move by 50% for each slide
+    const offset = -currentIndex * 100; // Adjust offset to move by 100% for each slide
     document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
 }
 
