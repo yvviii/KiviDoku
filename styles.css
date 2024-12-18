@@ -93,7 +93,7 @@ nav ul li a.active {
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 700%; /* Da 7 Slides existieren */
+    width: 700%; /* 7 Slides insgesamt */
 }
 
 .carousel-item {

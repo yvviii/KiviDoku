@@ -46,7 +46,7 @@ function showSlide(index) {
     }
 
     // Offset ist 50% der Breite für 2 Seiten pro Slide
-    const offset = -currentIndex * 50; // Verschiebt den Inhalt um jeweils 50% der Breite (2 Seiten)
+    const offset = -currentIndex * 100 / totalSlides; // Verschiebt den Inhalt um jeweils 100% / 7 Slides
     document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
 }
 
