@@ -93,20 +93,19 @@ nav ul li a.active {
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 200%; /* Adjust width to accommodate all slides */
+    width: 700%; /* Da 7 Slides existieren */
 }
 
-/* Adjust the carousel item and image sizes */
 .carousel-item {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Each item takes up the full width of the carousel-inner */
+    width: 14.28%; /* 100% / 7 Slides = 14.28% pro Slide */
     box-sizing: border-box;
 }
 
 .carousel-item img {
-    width: 49%; /* Each image takes up half of the carousel item width */
-    height: auto; /* Maintain aspect ratio */
+    width: 49%; /* Jedes Bild nimmt 49% des Slide-Platzes ein */
+    height: auto;
 }
 
 .carousel-control {
