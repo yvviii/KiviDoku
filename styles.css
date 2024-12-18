@@ -96,13 +96,12 @@ nav ul li a.active {
 }
 
 .carousel-item {
-    min-width: 100%;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: auto;
+    width: 49%;
 }
 
 .carousel-control {
@@ -114,8 +113,8 @@ nav ul li a.active {
     border: none;
     padding: 10px;
     cursor: pointer;
+    z-index: 1;
 }
-
 .carousel-control.prev {
     left: 10px;
 }
